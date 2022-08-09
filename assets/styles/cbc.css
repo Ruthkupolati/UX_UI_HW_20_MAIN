@@ -23,9 +23,10 @@ body {
 
 img {
     position: left;
-width: 110px;
-height: 41px;
+width: 70px;
+height: 30px;
 left: 34px;
+justify-items: center;
 top: 25px;
 
 }
@@ -76,13 +77,21 @@ nav ul li a {
 
 main {
     padding: 7rem 12rem;
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 2.8rem;
     font-family: 'Roboto Serif';
 }
 
 main h3 {
     line-height: 3rem;
+    font-size: 2.4rem;
+}
+
+main h4 {
+    font-size: 4rem;
+    line-height: 7rem;
+    text-align: center;
+    padding: 7rem 12rem;
 }
 
 main picture {
@@ -96,71 +105,20 @@ main picture {
 
 main picture img {
     height: 100%;
-    width: auto;
-}
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #DCBAA2;
-    padding: 4.1rem 8rem;
-    gap: 9.1rem;
     width: 100%;
-    margin-top: auto;
 }
 
-footer >section {
-    display: flex;
-    justify-content: space-between;
-}
-
-footer .left h3 {
-    font-size: 8rem;
-    line-height: 5.6rem;
-    margin-bottom: 2rem;
-    font-weight: 400;
-    font-family: 'Roboto Serif';
-}
-
-footer .left div {
-    display: flex;
-    gap: 1rem;
-
-}
-
-footer .right {
-    display: flex;
-    flex-direction: column;
+footer div img {
+    height: 50px;
+    width: 50px;
     align-items: center;
-    gap: 3rem;
+    line-height: 7rem;
+    align-content: center;
 }
 
-footer .right h4 {
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    font-weight: 700;
-}
-
-footer .right ul {
-    display: flex;
-    gap: 4rem;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-}
-
-footer .right ul li {
-    display: inline;
-}
-
-footer .right a {
-    text-decoration: none;
-    color: #000;
-}
-
-footer .right a:hover {
-    background-color: #F2EFEB;
-}
-footer small {
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    font-family: 'Roboto Serif';
+footer h5 {
+    font-size: 2rem;
+    line-height: 7rem;
+    text-align: center;
+    padding: 7rem 12rem;
 }
