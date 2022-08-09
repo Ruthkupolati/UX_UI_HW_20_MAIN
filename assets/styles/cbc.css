@@ -111,9 +111,7 @@ main picture img {
 footer div img {
     height: 50px;
     width: 50px;
-    align-items: center;
-    line-height: 7rem;
-    align-content: center;
+    
 }
 
 footer h5 {
