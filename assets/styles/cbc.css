@@ -109,8 +109,12 @@ main picture img {
 }
 
 footer div img {
+    display: block;
     height: 50px;
     width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
     
 }
 
